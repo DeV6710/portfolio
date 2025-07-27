@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="Y.png" alt="" id="logo">
+        <a id="drop"><img src="img/menu.png" alt="" srcset=""></a>
+        <div id="nav-content">
+            <a href="#magic">Home</a>
+            <a href="#about">About</a>
+            <a href="#blogs">Projects</a>
+            <a href="#">Contact </a>
+        </div>
+    </nav>
+    <br>
+    <div id="magic">
+        <img src="1752856709402.jpg" alt="" id="picture">
+        <div id="bro">
+            <h1>Hello,</h1>
+            <h3>I am Youssef E ,Nice to see you :)<br>Do You want to see my portfolio ?</h3>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/youssef-ewida-b1b53b298/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+                <a href="https://github.com/DeV6710" target="_blank"><img src="img/github.png" alt=""></a>
+
+            </div>
+            <h3>Let`s get started</h3>  
+        </div>
+    </div>
+    <div id="about">
+        <div id="about-title">
+            <h1>About</h1><img src="alfons-d-johannes-pXGHckS9Ak8-unsplash.jpg" alt="" srcset="">
+        </div>
+        <div id="about-par">
+            <p>
+                I’m a rising junior who is passionate about computer science, particularly in software engineering, cybersecurity, and AI. 
+                I enjoy building creative projects, from games to web tools, and I like solving problems with code.
+            </p>
+            <p>
+                Outside of tech, I love reading and playing badminton. Balancing school, hobbies, and sports has taught me to focus, 
+                stay disciplined, and manage my time well. I'm always seeking ways to learn, grow, and turn ideas into real-world results.
+            </p>
+        
+        <div id="lists">
+            <ul>
+                <li id="special">Hard <br> Skills</li>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>PYTHON</li>
+                    <li>P5.JS</li>
+                    <li>P5Play.js</li>
+            </ul>
+
+            <ul>
+                <li id="special">Soft <br> Skills</li>
+
+                <li>Communication</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+                <li>Adaptability</li>
+                    <li>Accountability</li>
+
+            </ul>
+            <ul>
+                <li id="special">Tools &<br> Technologies </li>
+
+                <li>VS Code</li>
+                <li>GitHUb</li>
+                <li>Figma</li>
+                <li>Canva</li>
+            </ul>
+              <ul>
+                <li id="special"> Certificante &<br> Achievements</li>
+
+                <li>ASC summer Intensive</li>
+                <li>Responsive Web Design – freeCodeCamp</li>
+                <li>Career Essentials in <br>Software Development - Microsoft</li>
+                <li>Introduction to Cybersecurity</li>
+
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div id="blogs">
+        
+        <h1 id="Projects-title">Projects</h1>
+        
+        <div id="b-1"class="b" >
+            <img src="img/b-1.png" id="b-m-1">
+            <h2>LOST : </h2>
+            <h3>A game made by P5PLAY.js. </h3>
+            <div id="buttons">
+                <a href="https://dev6710.github.io/A_Game_made_by_p5play/" target="_blank" id="b-b-1">Click Here</a>
+              <a href="https://github.com/DeV6710/A_Game_made_by_p5play" target="_blank" id="b-b-2">Source Code</a>
+            </div>
+        </div>
+        <div id="b-1" class="b">
+            <img src="img/b-2.jpg" id="b-m-1">
+             <h2>Quadratic formula Calculator : </h2>
+            <h3>A Website to caclulate quadratic questions </h3>
+            <div id="buttons">
+                <a href="https://dev6710.github.io/Quadratic-formula/" target="_blank" id="b-b-1">Click Here</a>
+              <a href="https://github.com/DeV6710/Quadratic-formula?tab=readme-ov-file" target="_blank" id="b-b-2">Source Code</a>
+            </div>  
+         
+        </div>
+        
+        
+      </div>
+
+   <footer>
+        <h1>Copyright © by Youssef E</h1>
+        <img src="Y.png" alt="" id="logo">
+   </footer>  
+   <script>
+    // used Ai for this but I know what does it do 
+
+    //create a var dropBtn and find me #drop
+    const dropBtn = document.getElementById("drop");
+    //create a var navContent and find me #nav-content
+    const navContent = document.getElementById("nav-content");
+    //create an event for dropBtn when clicked toggle 
+    //a class "show" to display navcontent 
+    dropBtn.addEventListener("click", () => {
+        navContent.classList.toggle("show");
+    });
+</script>
+ 
+</body>
+</html>
