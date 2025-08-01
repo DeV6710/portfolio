@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: black;
+}
+
+
+
+form{
+    background-color: rgb(0, 0, 0); 
+    max-width:50%;
+    min-height:25vw;
+    border: 5px white solid;
+    display: flex;
+    margin: 50px auto;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+h1{
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 800;
+  font-style: normal;
+    font-style: normal;
+    color: white;
+    font-size: 85px;
+    margin: 25px;
+}
+
+fieldset{
+    margin: 25px;
+    padding: 25px;
+}
+fieldset legend{
+        color: white;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 800;
+  font-style: normal;
+    font-style: normal;
+    font-size: 45px;
+
+}
+
+input{
+    min-height: 35px;
+    padding: 5px;
+    min-width: 100%;
+    font-family: Arial;
+}
+
+#text{
+    height: 250px;
+
+}
+
+
+button{
+      font-family: "Jacquard 12", system-ui;
+  font-weight: 800;
+  font-style: normal;
+    font-style: normal;
+    height: 5vw;
+    color: white;
+    
+    font-size: 25px;
+    border: 5px white solid;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
