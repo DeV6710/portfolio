@@ -14,7 +14,7 @@ body{
 
 form{
     background-color: rgb(0, 0, 0); 
-    max-width:50%;
+    max-width:80%;
     min-height:25vw;
     border: 5px white solid;
     display: flex;
@@ -36,11 +36,12 @@ h1{
     color: white;
     font-size: 85px;
     margin: 25px;
+    overflow-wrap: break-word;
 }
 
 fieldset{
-    margin: 25px;
-    padding: 25px;
+    max-width: 100%;
+
 }
 fieldset legend{
         color: white;
@@ -59,25 +60,33 @@ input{
     font-family: Arial;
 }
 
-#text{
+textarea{
+    min-height: 35px;
+    font-family: Arial;
     height: 250px;
-
+    min-width: 100%;
 }
 
 
 button{
       font-family: "Jacquard 12", system-ui;
-  font-weight: 800;
-  font-style: normal;
+    font-weight: 800;
     font-style: normal;
-    height: 5vw;
+    font-style: normal;
+    height: 15vw;
     color: white;
-    
-    font-size: 25px;
+    width: 100%;
+    font-size: 55px;
     border: 5px white solid;
     background-color: rgb(0, 0, 0);
 }
 
+
+@media (max-width:500px) {
+    button{
+       font-size: 25px;
+    }
+}
 
 
 

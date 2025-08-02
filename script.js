@@ -11,11 +11,5 @@
     });
 
 
-let song =new Audio("CoolMusic.mp3")
-
-if(!song.play()){
-        song.volume = 0.1;
-    song.play()
-}
 
 
